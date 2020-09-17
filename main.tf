@@ -14,6 +14,6 @@ module "k8s" {
     source = "./modules/aks"
     prefix = "test"
     location = "westeurope"
-    kubernetes_version = "1.16.13"
-    orchestrator_version = "1.16.13"
+    kubernetes_version = "1.18.8"
+    orchestrator_version = "1.18.8"
 }
