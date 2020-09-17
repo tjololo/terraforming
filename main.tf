@@ -11,7 +11,7 @@ provider "azurerm" {
 }
 
 module "k8s" {
-    source = "./modules/aks"
+    source = "./modules/aks-autoscale"
     prefix = "test"
     location = "westeurope"
     kubernetes_version = "1.18.8"
